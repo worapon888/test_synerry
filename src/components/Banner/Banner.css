@@ -1,0 +1,38 @@
+.banner {
+  background-image: linear-gradient(
+      to top,
+      rgba(249, 228, 109, 0.337),
+      rgb(255, 255, 255)
+    ),
+    url("./Bg_banner.png");
+  width: 100%;
+  height: 600px;
+  background-repeat: repeat-x;
+  object-fit: cover;
+  background-size: 100vh cover;
+  z-index: 10;
+  position: relative;
+}
+.img_banner {
+  background-image: url("./banner.png");
+  position: absolute;
+  width: 500px;
+  height: 520px;
+  z-index: 1000;
+  background-repeat: no-repeat;
+  right: 10rem;
+  top: 88.5rem;
+}
+.text_banner {
+  position: absolute;
+  z-index: 1000;
+}
+.text_banner p {
+  font-size: 20px;
+  color: var(--gray-dark-color);
+}
+.text_banner h1 {
+  font-size: 5rem;
+  font-weight: 200;
+  color: var(--gray-dark-color);
+}

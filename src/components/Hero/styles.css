@@ -1,0 +1,111 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper {
+  position: relative;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.swiper-slide img {
+  display: block;
+
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.hero-img1 {
+  display: block;
+  width: 100%;
+  height: 500px;
+  /* background-image: linear-gradient(to left, rgba(0, 0, 6, 0.859), transparent),
+    url("https://images.pexels.com/photos/3559252/pexels-photo-3559252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+  background-image: linear-gradient(to left, rgba(0, 0, 6, 0.859), transparent),
+    url(../Hero/hero2.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-img2 {
+  background-image: linear-gradient(to left, rgba(0, 0, 6, 0.859), transparent),
+    url(../Hero/Hero1.png);
+  display: block;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-img3 {
+  background-image: linear-gradient(to left, rgba(0, 0, 6, 0.859), transparent),
+    url("https://images.pexels.com/photos/592626/pexels-photo-592626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  display: block;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-img4 {
+  background-image: linear-gradient(to left, rgba(0, 0, 6, 0.859), transparent),
+    url("https://images.pexels.com/photos/4219520/pexels-photo-4219520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  display: block;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-hero {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  z-index: 10;
+}
+.text-hero h3 {
+  color: var(--primary-color);
+  font-size: 4rem;
+  font-weight: 200;
+}
+.text-hero p {
+  color: var(--gray-dark-color);
+  font-size: 18px;
+}
+.component {
+  display: flex;
+  position: absolute;
+  justify-content: end;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container-swiper1 {
+  display: flex;
+  justify-content: flex-end;
+  right: -2rem;
+  top: -21rem;
+
+  opacity: 0.6;
+
+  position: absolute;
+  z-index: 10;
+}
+.img2 {
+  font-size: 3rem;
+}
+.component1 img {
+  opacity: 0.5;
+}

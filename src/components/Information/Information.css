@@ -1,0 +1,27 @@
+.text-information {
+  color: #682d2f;
+  margin-right: 25rem;
+}
+.text-information h1 {
+  font-size: 6rem;
+  margin-bottom: -2rem;
+  font-weight: 400;
+}
+.text-information h2 {
+  font-size: 2rem;
+
+  font-weight: 400;
+}
+.btn_i {
+  margin: 1px;
+}
+.text-information h1::before {
+  content: " ";
+  display: block;
+  border: 4px solid #682d2f;
+
+  margin-right: -5px;
+  margin-bottom: 2rem;
+  padding-left: 25rem;
+  margin-left: 5px;
+}

@@ -1,0 +1,237 @@
+.container {
+  margin-top: 1px;
+}
+.Cta1 {
+  cursor: pointer;
+  position: relative;
+  object-fit: cover;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(5, 48, 141, 0.423) 0%,
+      rgba(15, 42, 123, 0.72) 100%
+    ),
+    url("./Service_5.png");
+  width: 200px;
+  height: 150px;
+  margin: 0 1px;
+  clip-path: polygon(50% 0%, 100% 0, 100% 86%, 86% 100%, 0 100%, 0 0);
+
+  z-index: 1000;
+  transition: all 300ms;
+}
+.Cta1:hover,
+.Cta1:active {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-heroCta {
+  margin-left: 1rem;
+  margin-bottom: -1rem;
+}
+.text-heroCta h3 {
+  font-size: 3.5rem;
+  margin-bottom: -1rem;
+  color: rgba(85, 103, 241, 0.819);
+  font-weight: 200;
+}
+.text-heroCta p {
+  color: #fff;
+}
+/* 2 */
+
+.Cta2 {
+  cursor: pointer;
+  position: relative;
+  object-fit: cover;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(91, 5, 141, 0.423) 0%,
+      rgba(39, 9, 88, 0.72) 100%
+    ),
+    url("./Service_6.png");
+  width: 200px;
+  height: 150px;
+  margin: 0 1px;
+  clip-path: polygon(50% 0%, 100% 0, 100% 86%, 86% 100%, 0 100%, 0 0);
+
+  z-index: 1000;
+  transition: all 300ms;
+}
+.Cta2:hover,
+.Cta2:active {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-heroCta2 {
+  margin-left: 1rem;
+  margin-bottom: -1rem;
+}
+.text-heroCta2 h3 {
+  font-size: 3.5rem;
+  margin-bottom: -1rem;
+  color: rgba(189, 114, 246, 0.825);
+  font-weight: 200;
+}
+.text-heroCta2 p {
+  color: #fff;
+}
+/* 3 */
+.Cta3 {
+  cursor: pointer;
+  position: relative;
+  object-fit: cover;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(203, 203, 9, 0.751) 0%,
+      rgba(88, 76, 9, 0.72) 100%
+    ),
+    url("./Service_3.png");
+  width: 200px;
+  height: 150px;
+  margin: 0 1px;
+  clip-path: polygon(50% 0%, 100% 0, 100% 86%, 86% 100%, 0 100%, 0 0);
+
+  z-index: 1000;
+  transition: all 300ms;
+}
+.Cta3:hover,
+.Cta3:active {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-heroCta3 {
+  margin-left: 1rem;
+  margin-bottom: -1rem;
+}
+.text-heroCta3 h3 {
+  font-size: 3.5rem;
+  margin-bottom: -1rem;
+  color: rgba(239, 239, 66, 0.785);
+  font-weight: 200;
+}
+.text-heroCta3 p {
+  color: #fff;
+}
+/* 4 */
+.Cta4 {
+  cursor: pointer;
+  position: relative;
+  object-fit: cover;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(248, 172, 80, 0.751) 0%,
+      rgba(69, 33, 3, 0.72) 100%
+    ),
+    url("./Service_2.png");
+  width: 200px;
+  height: 150px;
+  margin: 0 1px;
+  clip-path: polygon(50% 0%, 100% 0, 100% 86%, 86% 100%, 0 100%, 0 0);
+
+  z-index: 1000;
+  transition: all 300ms;
+}
+.Cta4:hover,
+.Cta4:active {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-heroCta4 {
+  margin-left: 1rem;
+  margin-bottom: -1rem;
+}
+.text-heroCta4 h3 {
+  font-size: 3.5rem;
+  margin-bottom: -1rem;
+  color: rgba(243, 186, 100, 0.761);
+  font-weight: 200;
+}
+.text-heroCta4 p {
+  color: #fff;
+}
+/* 5 */
+.Cta5 {
+  cursor: pointer;
+  position: relative;
+  object-fit: cover;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(203, 9, 45, 0.751) 0%,
+      rgba(88, 9, 12, 0.72) 100%
+    ),
+    url("./Service_4.png");
+  width: 200px;
+  height: 150px;
+  margin: 0 1px;
+  clip-path: polygon(50% 0%, 100% 0, 100% 86%, 86% 100%, 0 100%, 0 0);
+
+  z-index: 1000;
+  transition: all 300ms;
+}
+.Cta5:hover,
+.Cta5:active {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-heroCta5 {
+  margin-left: 1rem;
+  margin-bottom: -1rem;
+}
+.text-heroCta5 h3 {
+  font-size: 3.5rem;
+  margin-bottom: -1rem;
+  color: rgba(239, 45, 51, 0.785);
+  font-weight: 200;
+}
+.text-heroCta5 p {
+  color: #fff;
+}
+/* 6 */
+.Cta6 {
+  cursor: pointer;
+  position: relative;
+  object-fit: cover;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(25, 203, 9, 0.751) 0%,
+      rgba(9, 88, 50, 0.72) 100%
+    ),
+    url("https://images.pexels.com/photos/7658355/pexels-photo-7658355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  width: 200px;
+  height: 150px;
+  margin: 0 1px;
+  clip-path: polygon(50% 0%, 100% 0, 100% 86%, 86% 100%, 0 100%, 0 0);
+
+  z-index: 1000;
+  transition: all 300ms;
+}
+.Cta6:hover,
+.Cta6:active {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-heroCta6 {
+  margin-left: 1rem;
+  margin-bottom: -1rem;
+}
+.text-heroCta6 h3 {
+  font-size: 3.5rem;
+  margin-bottom: -1rem;
+  color: rgba(84, 239, 45, 0.781);
+  font-weight: 200;
+}
+.text-heroCta6 p {
+  color: #fff;
+}
